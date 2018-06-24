@@ -1,4 +1,4 @@
-package com.deviceinfosample.activity;
+package com.huawei.deviceinfo.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,8 +7,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.deviceinfosample.R;
-import com.deviceinfosample.adapter.ViewPagerAdapter;
+import com.huawei.deviceinfo.R;
+import com.huawei.deviceinfo.adapter.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,15 +30,15 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setOffscreenPageLimit(0);
 
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addTitle("Location");
-        adapter.addTitle("App");
-        adapter.addTitle("Ads");
-        adapter.addTitle("Battery");
-        adapter.addTitle("Device");
-        adapter.addTitle("Memory");
-        adapter.addTitle("Network");
-        adapter.addTitle("Installed Apps");
-        adapter.addTitle("Contacts");
+        adapter.addTitle(getString(R.string.location));
+        adapter.addTitle(getString(R.string.application));
+        adapter.addTitle(getString(R.string.ads));
+        adapter.addTitle(getString(R.string.battery));
+        adapter.addTitle(getString(R.string.device_info));
+        adapter.addTitle(getString(R.string.memory));
+        adapter.addTitle(getString(R.string.network));
+        adapter.addTitle(getString(R.string.installed_apps));
+//        adapter.addTitle(getString(R.string.contacts));
         viewPager.setAdapter(adapter);
 
         tabLayout = (TabLayout) findViewById(R.id.tab_layout);

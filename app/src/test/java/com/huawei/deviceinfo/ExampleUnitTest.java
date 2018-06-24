@@ -1,4 +1,4 @@
-package com.deviceinfosample;
+package com.huawei.deviceinfo;
 
 import org.junit.Test;
 

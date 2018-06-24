@@ -1,11 +1,10 @@
-package com.deviceinfosample.adapter;
+package com.huawei.deviceinfo.adapter;
 
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.deviceinfosample.fragment.MainFragment;
+import com.huawei.deviceinfo.fragment.MainFragment;
 
 import java.util.ArrayList;
 import java.util.List;

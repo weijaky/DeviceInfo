@@ -1,4 +1,4 @@
-package com.deviceinfosample;
+package com.huawei.deviceinfo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

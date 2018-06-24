@@ -1,4 +1,4 @@
-package com.deviceinfosample.fragment;
+package com.huawei.deviceinfo.fragment;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -33,8 +33,8 @@ import com.an.deviceinfo.userapps.UserAppInfo;
 import com.an.deviceinfo.userapps.UserApps;
 import com.an.deviceinfo.usercontacts.UserContactInfo;
 import com.an.deviceinfo.usercontacts.UserContacts;
-import com.deviceinfosample.R;
-import com.deviceinfosample.adapter.CustomListAdapter;
+import com.huawei.deviceinfo.R;
+import com.huawei.deviceinfo.adapter.CustomListAdapter;
 
 import java.util.List;
 
@@ -200,20 +200,13 @@ public class MainFragment extends Fragment implements AdInfo.AdIdCallback, Permi
 
     @Override
     public void onPositiveButtonClicked(DialogInterface dialog, int which) {
-        /**
-         * You can choose to open the
-         * app settings screen
-         * * */
+
         permissionUtils.openAppSettings();
         Toast.makeText(mActivity, "User has opened the settings screen", Toast.LENGTH_LONG).show();
     }
 
     @Override
     public void onNegativeButtonClicked(DialogInterface dialog, int which) {
-        /**
-         * The user has denied the permission!
-         * You need to handle this in your code
-         * * */
         Toast.makeText(mActivity, "User has denied the permissions", Toast.LENGTH_LONG).show();
     }
 

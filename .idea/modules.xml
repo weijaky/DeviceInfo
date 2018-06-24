@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DeviceInfoSample.iml" filepath="$PROJECT_DIR$/DeviceInfoSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeviceInfo.iml" filepath="$PROJECT_DIR$/DeviceInfo.iml" />
+      <module fileurl="file://C:\workspaces\DeviceInfo\DeviceInfo.iml" filepath="C:\workspaces\DeviceInfo\DeviceInfo.iml" />
+      <module fileurl="file://C:\workspaces\DeviceInfo\DeviceInfoSample.iml" filepath="C:\workspaces\DeviceInfo\DeviceInfoSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/deviceinfo/deviceinfo.iml" filepath="$PROJECT_DIR$/deviceinfo/deviceinfo.iml" />
+      <module fileurl="file://C:\workspaces\DeviceInfo\deviceinfo\deviceinfo.iml" filepath="C:\workspaces\DeviceInfo\deviceinfo\deviceinfo.iml" />
     </modules>
   </component>
 </project>
